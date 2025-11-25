@@ -1,0 +1,93 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Virtual environments
+venv/
+env/
+ENV/
+.venv
+.conda/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Logs
+*.log
+safeway/data/logs/*.log
+*.log.*
+
+# Modèles (trop volumineux pour git)
+safeway/data/models/*.pt
+safeway/data/models/*.onnx
+safeway/data/models/*.tflite
+safeway/data/models/*.engine
+*.pt
+*.onnx
+*.tflite
+
+# Vidéos d'exemple
+safeway/data/samples/*.mp4
+safeway/data/samples/*.avi
+safeway/data/samples/*.mov
+safeway/data/samples/*.mkv
+
+# Dataset (peut être volumineux)
+safeway/data/dataset/images/
+safeway/data/dataset/labels/
+!safeway/data/dataset/README.md
+!safeway/data/dataset/dataset.yaml
+
+# Résultats d'entraînement
+runs/
+wandb/
+*.csv
+*.json
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Temporary files
+*.tmp
+*.temp
+*.bak
+*.swp
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# pytest
+.pytest_cache/
+.coverage
+htmlcov/
+
+# mypy
+.mypy_cache/
+.dmypy.json
+dmypy.json
+

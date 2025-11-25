@@ -1,0 +1,17 @@
+# Configuration du dataset SafeWay
+# Chemin vers les images et labels
+
+path: data/dataset  # Chemin racine du dataset
+train: images/train  # Dossier des images d'entraînement (relatif à path)
+val: images/val      # Dossier des images de validation (relatif à path)
+test: images/test     # Dossier des images de test (optionnel, relatif à path)
+
+# Classes à détecter
+names:
+  0: telephone        # Téléphone portable
+  1: main_telephone   # Main tenant un téléphone
+  2: distraction      # Objet de distraction
+  3: conducteur       # Visage du conducteur (optionnel)
+
+# Nombre de classes
+nc: 3

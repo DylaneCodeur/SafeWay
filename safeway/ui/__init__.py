@@ -1,0 +1,4 @@
+"""
+Module UI pour SafeWay
+"""
+

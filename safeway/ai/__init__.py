@@ -1,0 +1,4 @@
+"""
+Module AI pour SafeWay
+"""
+

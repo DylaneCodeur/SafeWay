@@ -1,0 +1,3 @@
+# Ce fichier permet de garder le dossier models dans git
+# Les modèles (.pt, .onnx, .tflite) sont ignorés par .gitignore
+

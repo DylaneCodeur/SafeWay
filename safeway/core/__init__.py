@@ -1,0 +1,4 @@
+"""
+Module core pour SafeWay
+"""
+
