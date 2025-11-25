@@ -78,6 +78,17 @@ desktop.ini
 *.bak
 *.swp
 
+# Fichiers de publication (scripts personnels)
+publish_to_github.sh
+auto_publish.sh
+publish_complete.sh
+COMMANDES_PUBLICATION.txt
+INSTRUCTIONS_PUBLICATION.md
+PUBLISH.md
+init_repo.sh
+SUMMARY.md
+.github/README_PUBLISH.md
+
 # Jupyter Notebook
 .ipynb_checkpoints
 
